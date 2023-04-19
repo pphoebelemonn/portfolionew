@@ -1,0 +1,187 @@
+html, body {
+  /* green color */
+    /* background-color: rgb(232, 245, 126); */
+    /* blue */
+    /* background-color: rgb(18, 55, 106); */
+    /* pink */
+    background-color: rgb(253, 205, 255);
+    margin: 0%;
+    padding:0%;
+    z-index: -2;
+    overflow-x: hidden;
+}
+
+
+header{
+  position: absolute;
+  width: 100%;
+  top: 4%;
+  z-index: 100;
+  /* background-color: rgb(18, 55, 106); */
+  text-align: center;
+}
+
+.title-container {
+    display: grid;
+    width: 100%;
+    font-family: 'Nova Round', cursive;
+    font-size: 100px;
+    margin-top: 15%;
+}
+
+/* #name {
+  z-index: inherit;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: calc(-50%, -50%);
+} */
+
+.layer-1 {
+  /* color: rgb(253, 81, 235); */
+  /* color: rgb(199, 62, 181) */
+  /* color: rgb(20,20,20); */
+  /* color: rgb(253, 81, 215); */
+  color: rgb(253, 49, 254);
+  z-index: 2;
+
+}
+.layer-2 {
+  /* color: rgb(41, 186, 163); */
+  z-index: 2;
+
+  /* color: rgb(232, 245, 126); */
+  color: rgb(8, 11, 255);
+  /* color: rgb(27, 201, 116); */
+
+  /* color:  rgb(233, 236, 47); */
+  /* color: rgb(253, 81, 235); */
+  /* color: rgb(253, 185, 255); */
+  margin-top: 0.4%;
+  margin-left: 1%;
+}
+
+.layer-1, .layer-2{
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.sketch{
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  z-index: 1;
+  width: 50%;
+  height: auto;
+}
+
+#sketch1{
+  top: -10%;
+  left: -15%;
+}
+#sketch2{
+  top: -10%;
+  right:-15%;
+}
+
+a:link, a:visited{
+  text-decoration: none;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: lighter;
+  font-size: 24px;
+  color: black;
+}
+
+a:hover {
+  opacity: 0.6;
+}
+
+.menu-options {
+  /* position: fixed; */
+  /* background: rgb(253, 205, 255); */
+  display: inline-block;
+  width: 20%;
+}
+
+.divider {
+  position: relative;
+  margin, padding: 0;
+  height: 900px;
+  margin-top: 50vh;
+  background-color: rgb(18, 31, 215);
+  /* background-color: rgb(27, 201, 116); */
+  /* background-color: rgb(233, 236, 67); */
+  z-index: 2;
+}
+
+.word-cloud {
+  color: white;
+  font-family: 'Nova Round', cursive;
+  position: absolute;
+  top: 30%;
+  left: 0%;
+  transform: calc(-50%, -50%);
+  width: 100%;
+  height: 50%;
+  /* background-color: black; */
+  text-align:center;
+}
+
+#hi {
+  position: absolute;
+  width: 100%;
+  font-size: 100px;
+  bottom: 93%;
+  left: 0%;
+  text-align: center;
+}
+
+#anthropologist {
+  position: absolute;
+  font-size: 50px;
+  /* bottom: 100%; */
+  top: 10%;
+  left: 25%;
+}
+ #designer {
+   position: absolute;
+   font-size: 70px;
+   bottom: 98%;
+   right: 25%;
+   top: 8%;
+ }
+
+ #new{
+   position: absolute;
+   font-size: 65px;
+   top: 25%;
+   left: 25%;
+ }
+
+ #activist {
+   position: absolute;
+   font-size: 40px;
+   top: 30%;
+   right: 25%;
+ }
+
+ #programmer {
+   position: absolute;
+   font-size: 40px;
+   top: 48%;
+   left: 25%;
+ }
+
+#adopt {
+  position: absolute;
+  font-size: 55px;
+  top: 45%;
+  right: 25%;
+}
+
+#writer {
+    position: absolute;
+    font-size: 50px;
+    top: 60%;
+    left: 40%;
+  }
