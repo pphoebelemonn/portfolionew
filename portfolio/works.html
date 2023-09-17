@@ -6,14 +6,22 @@
     <!--- fonts --->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300;400&family=Nova+Round&display=swap" rel="stylesheet">
-      <!---font-family: 'Nova Round', cursive;--->
-      <!-- font-family: 'Alegreya Sans', sans-serif; -->
-    <!--- fonts --->
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Alegreya+Sans:wght@100;300;400&family=Bodoni+Moda:wght@600&family=Montserrat+Alternates:wght@100;300;400&family=Noto+Serif+SC:wght@300&family=Nova+Round&family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Prata&family=ZCOOL+XiaoWei&family=Zilla+Slab:wght@300&display=swap" rel="stylesheet">
+    <!-- font-family: 'Abel', sans-serif;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-family: 'Bodoni Moda', serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Noto Serif SC', serif;
+    font-family: 'Nova Round', cursive;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-family: 'Prata', serif;
+    font-family: 'ZCOOL XiaoWei', sans-serif;
+    font-family: 'Zilla Slab', serif; -->
 
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!--- fonts --->
+    <link rel="stylesheet" type="text/css" href="css/works.css">
     <script src = 'js/library/p5.js' type ='text/javascript'> </script>
-    <script src="js/script.js" type="text/javascript"> </script>
+    <!-- <script src="js/script.js" type="text/javascript"> </script> -->
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/addons/p5.dom.min.js"></script>
@@ -21,5 +29,168 @@
   </head>
 
   <body>
-    <p> hello </p>
+    <div class = 'homebanner'>
+      <a href = 'index.html'> phoebe✦lemon </a>
+    </div>
+
+    <div class="dropdown">
+      <button class="dropbtn">menu</button>
+      <div class="dropdown-content">
+        <a href="biography.html">BIOGRAPHY</a>
+        <a href="connect.html">CONNECT</a>
+      </div>
+    </div>
+
+<!-- ///////////////////////////////////////////////////// -->
+
+    <div class = 'page-content'>
+      <!-- PAGE CONTENT -->
+      <div class = 'section-container'>
+        <!-- <img src = 'assets/climbing-ivy-recording.gif' id = 'graphic-design-bg'> -->
+
+        <div class = 'featured-title'>I. The Chinese Adoptee: A Digital Ethnography</div>
+        <div class = 'temporary-people'> </div>
+        <div class = 'al-ruwais'> </div>
+      </div>
+
+      <div class = 'section-container' >
+        <div class = 'featured-title'> II. The Space Between </div>
+
+        <section class="user-cloud">
+          <div class="brands-container">
+            <div class="brands-carousel">
+              <picture>
+                <source srcset="assets/images/s-customer-cloud1.png"
+                    media="(max-width: 766px)" />
+                <img src="assets/images/customer-cloud1.png" />
+              </picture>
+              <picture>
+                <source srcset="assets/images/s-customer-cloud2.png"
+                    media="(max-width: 766px)" />
+                <img src="assets/images/customer-cloud2.png" />
+              </picture>
+              <picture>
+                <source srcset="assets/images/s-customer-cloud3.png"
+                    media="(max-width: 766px)" />
+                <img src="assets/images/customer-cloud3.png" />
+              </picture>
+              <picture>
+                <source srcset="assets/images/s-customer-cloud4.png"
+                    media="(max-width: 766px)" />
+                <img src="assets/images/s-customer-cloud4.png" />
+              </picture>
+            </div>
+          </div>
+        </section>
+
+
+      </div>
+
+      <div class = 'section-container' id = 'creative-coding'>
+        <div class = 'section-title'> III. Creative Coding </div>
+
+        <div class = 'video-container' id='vines'>
+          <video loop width="100%"  autoplay muted class = 'vid largevid'>
+            <source src="assets/climbing-ivy-recording.mp4" type="video/mp4" />
+          </video>
+          <div class = 'sketch-title'> "Climbing Ivy" </div>
+        </div>
+
+        <div class = 'video-container' id = 'name-generator'>
+          <img src = 'assets/face.gif' alt = 'names-ss' class = 'vid largevid'>
+          <div class = 'sketch-title'> "the names we write" </div>
+        </div>
+
+        <div class = 'video-container' id = 'water-series'>
+          <img src = 'assets/calm-waters.gif' alt = 'names-ss' class = 'vid water' id = 'water1'>
+          <img src = 'assets/pond.gif' alt = 'names-ss' class = 'vid water' id = 'water2'>
+          <img src = 'assets/pool-tiles.gif' alt = 'names-ss' class = 'vid water' id = 'water3'>
+          <video loop autoplay muted class = 'vid water' id = 'water4'>
+            <source src="assets/bubbles-recording.mp4" type="video/mp4" />
+          </video>
+          <div class = 'sketch-title'> "generative art: water series" </div>
+        </div>
+
+        <div class = 'video-container' id = 'mushroom-dancer'>
+          <img src = 'assets/mushroom.jpeg' alt = 'mushroom' class = 'vid largevid'>
+          <div class = 'sketch-title'> "psychedelic mushrooms" </div>
+        </div>
+
+        <div class = 'video-container' id = 'red-waves'>
+          <img src = 'assets/red-waves.png' alt = 'redwaves' class = 'vid largevid'>
+          <div class = 'sketch-title'> "jellyfish remains" </div>
+        </div>
+
+        <div class = 'video-container' id = 'portrait'>
+          <img src = 'assets/names-generator.png' alt = 'portrait' class = 'vid largevid'>
+          <div class = 'sketch-title'> "self portrait" </div>
+        </div>
+
+        <div class = 'video-container' id = 'seed'>
+          <img src = 'assets/seed.png' alt = 'seedoflife' class = 'vid largevid'>
+          <div class = 'sketch-title'> "recursive seed of life" </div>
+        </div>
+
+      </div>
+
+      <div class = 'section-container' id = 'graphic-design'>
+        <!-- <img src = 'assets/al-manarat.png' id = 'graphic-design-bg'> -->
+
+        <div class = 'section-title'> IV. Graphic Design </div>
+        <div class = 'single-image-container' id = 'temporary-people-container'>
+          <img src = 'assets/temporary-people.jpeg' alt = 'temporary-people-poster' class = 'poster'>
+        </div>
+        <div class = 'project-title' id = 'temporary-title'> "Temporary People" </div>
+
+        <div class = 'single-image-container' id = 'al-ruwais-container'>
+          <img src = 'assets/bayt-cover.jpeg' alt = 'al-ruwais' class = 'poster'>
+        </div>
+        <div class = 'project-title' id = 'bayt-title'> "Bayt Al Ruwais" </div>
+
+        <div class = 'single-image-container' id = 'type-container'>
+          <img src = 'assets/typography-infographic.png' alt = 'whats-your-type' class = 'poster'>
+        </div>
+        <div class = 'project-title' id = 'type-title'>Typography Infographic </div>
+
+      </div>
+
+      <!-- <div class = 'divider'> </div>  -->
+
+      <div class = 'section-container' id = 'assemblage'>
+        <!-- <img src = 'assets/set1-bg.JPG' id = 'assemblage-bg'> -->
+        <!-- <img src = 'assets/IMG_4901.jpg' alt = 'mask-left' id = 'mask-left'> -->
+        <div class = 'section-title'> V. Assemblage </div>
+        <div class = 'images-container' id = 'mask-images-container'>
+          <img src = 'assets/IMG_4901.jpg' alt = 'mask-left' id = 'mask-left'>
+          <img src = 'assets/IMG_4908.jpg' alt = 'mask-center' id = 'mask-center'>
+          <img src = 'assets/IMG_4902.jpg' alt = 'mask-right' id = 'mask-right'>
+         </div>
+         <div class = 'project-title' id = 'mask-title'>
+           Mask 01: "Not Your China Doll!" </div>
+         <div class = 'images-container' id = 'set-collage-images-container'>
+           <img src = 'assets/set2.jpg' alt = 'collage-left' id = 'collage-left'>
+           <img src = 'assets/set1.jpg' alt = 'collage-right' id = 'collage-right'>
+         </div>
+         <div class = 'project-title' id = 'collage-title'>
+          "Hauntologies of an Asian Woman" </div>
+
+        <!-- <div class = 'hauntology-images-container'> </div> -->
+
+        <div class = 'video-container' id = 'twins'>
+          <img src = 'assets/twins.jpg' alt = 'twins' class = 'vid largevid'>
+          <div class = 'sketch-title'> "anatomy of a twin" </div>
+        </div>
+
+        <div class = 'video-container' id = 'nycmem'>
+          <img src = 'assets/nycmemory.png' alt = 'nycmemory' class = 'vid largevid'>
+          <div class = 'sketch-title' style='left:12%;' > "NYC memory" </div>
+        </div>
+
+      </div>
+
+
+
+      <!-- PAGE CONTENT -->
+    </div>
+
   </body>
